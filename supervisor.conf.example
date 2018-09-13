@@ -1,0 +1,7 @@
+[program:pys300l3vco2]
+command=python3 -m pys300l3vco2
+numprocs=1
+redirect_stderr=true
+stdout_logfile=/home/pi/app/pys300l3vco2.log
+user=pi
+environment = PYS300L3VCO2="/home/pi/app/pys300l3vco2.conf",PYS300L3VCO2_LOGGER="/home/pi/app/pys300l3vco2.conf.json"

@@ -1,0 +1,2 @@
+{"version": 1,
+"handlers": {"logstash": {"level": "INFO", "class": "logstash.TCPLogstashHandler", "host": "127.0.0.1", "port": 5000, "version": 1, "message_type": "logstash", "tags": ["s300l3vco2"]}}, "root": {"level": "INFO", "handlers": ["logstash"]}}
