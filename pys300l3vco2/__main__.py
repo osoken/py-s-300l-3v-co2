@@ -11,4 +11,4 @@ args = parser.parse_args()
 
 app = gen_app()
 
-app.run(host=app.config['HOST'])
+app.run(host=app.config['HOST'], port=app.config['PORT'])
