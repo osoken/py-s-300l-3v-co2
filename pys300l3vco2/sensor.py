@@ -42,7 +42,7 @@ class S300L3VSensor(Thread):
 
     @property
     def co2(self):
-        retrn self.__latest_value
+        return self.__latest_value
 
     def __getitem__(self, attr):
         if attr in self.attributes():
